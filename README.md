@@ -36,3 +36,15 @@ This project allows users to upload a CSV or Excel file and query the data using
 
 ## 📁 Project Structure
 
+
+
+---
+
+## 📥 Setup Instructions
+
+1. **Clone the repo**  
+   ```bash
+   git clone https://github.com/your-username/text-to-sql-app.git
+   cd text_to_sql_app
+
+
