@@ -1,50 +1,44 @@
-# 🚀 Natural Language to SQL Query Generator with LLMs
+# 🧠 Natural Language to SQL (Text + Voice + Fuzzy Matching)
 
-This project allows users to upload a CSV or Excel file and query the data using natural language. The system uses a Large Language Model (via Groq API) to translate the query into SQL and fetch results from an SQLite database — all in a simple and interactive Streamlit app.
-
----
-
-## 🔍 Features
-
-- 🧠 **LLM-powered** Natural Language to SQL translation
-- 📂 Upload any CSV or XLSX file
-- 🔄 Dynamic table creation and query execution with SQLite
-- ✅ Query results and AI-generated SQL displayed in real time
-- 🌐 Streamlit-based interactive web interface
-- 🔐 Secure API key management using `secrets.toml`
+Turn your CSV data into instant insights!  
+Ask questions in **natural language** (text or voice), and get **SQLite queries** generated, corrected, and executed — fully inside **Streamlit**.
 
 ---
 
-## 📊 Sample Use Cases
+## 🚀 Features
 
-- **"Show the top 5 most expensive cars."**
-- **"List all diesel cars manufactured after 2018."**
-- **"Count how many cars are available for each fuel type."**
-
----
-
-## 🛠 Tech Stack
-
-- Python 3.8+
-- Streamlit
-- SQLite
-- Groq API (LLaMA3 model)
-- Pandas
-- SQLAlchemy
+- 📤 Upload any CSV file
+- 📝 Type or 🎙️ Speak your question
+- 🤖 LLM-powered SQL generation (local **Mistral** model via **Ollama**)
+- 🛠️ Fuzzy matching to auto-correct column names
+- 🔍 Instant SQL execution
+- 📊 Automatic chart generation (bar charts)
+- 📁 Download query results as CSV
+- 🧠 Query history (Chat memory)
 
 ---
 
-## 📁 Project Structure
+## 🛠️ Tech Stack
 
-
+- Python
+- Streamlit (Web UI)
+- Pandas (Data handling)
+- SQLite (In-memory database)
+- Ollama (Local LLM model - Mistral)
+- FuzzyWuzzy (Fuzzy string matching)
+- SpeechRecognition (Voice input)
 
 ---
 
-## 📥 Setup Instructions
+## 📦 Installation
 
-1. **Clone the repo**  
-   ```bash
-   git clone https://github.com/your-username/text-to-sql-app.git
-   cd text_to_sql_app
+```bash
+# 1. Clone the repository
+git clone https://github.com/your-username/your-repo-name.git
+cd your-repo-name
 
+# 2. Install the dependencies
+pip install -r requirements.txt
 
+# 3. Run the Streamlit app
+streamlit run app.py
